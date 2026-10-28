@@ -3,8 +3,8 @@ name: Python Uppercase
 on:
     push:
         paths:
-            - ".github/worflows/python-uppercase.yml"
-            - "py-upper/**"
+            - ".github/workflows/python-uppercase.yml"
+            - "py_upper/**"
     workflow_dispatch:
 
 
