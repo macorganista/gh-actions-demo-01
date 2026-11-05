@@ -3,14 +3,14 @@ name: Python Uppercase
 on:
     push:
         paths:
-            - ".github/workflows/python-uppercase.yml"
-            - "py_upper/**"
+            - ".github/workflows/python_uppercase.yml"
+            - "py-upper/**"
     workflow_dispatch:
 
 
 jobs:
     test:
-        runs-on: ubuntu_latest
+        runs-on: ubuntu-latest
         steps:
             - name: Check python version
               run: python -V
